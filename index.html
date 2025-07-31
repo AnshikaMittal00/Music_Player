@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css"  rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c4d1c7780.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <nav>
+              <div class="circle">
+                <i class="fa-solid fa-angle-left"></i>
+              </div> 
+              <div class="circle">
+                <i class="fa-solid fa-align-justify"></i>
+              </div> 
+           </nav>
+           <img src="468-thumbnail.png" alt="">
+           <h1>From Here On In</h1>
+           <h2>Everet Almond</h2>
+           <audio controls id="song">
+            <source src="From Here on In - Everet Almond.mp3" type="audio/mpeg">
+           </audio>
+           <input type="range" value="0" id="progress">
+           <div class="controls">
+          <div class=""><i class="fa-solid fa-backward"></i></div>  
+          <div class="" id="ctrl" onclick="Play()"><i id="play-icon" class="fa-solid fa-circle-play"></i></div>  
+           <div class=""> <i class="fa-solid fa-backward-fast"></i></div>
+           </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
